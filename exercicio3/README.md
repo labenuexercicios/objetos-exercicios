@@ -14,17 +14,12 @@ a) Crie uma cópia do objeto, acima, mantendo a estrutura, mas trocando **`nome`
 
 b) No objeto original, adicione mais uma propriedade, chamada `ataques`. Esta propriedade deve guardar um **array** de objetos com a estrutura abaixo. Inicie a propriedade como um array vazio, e crie o objeto abaixo utilizando `**push()**`
 
-
->>>
-
-**nome:** Investida
-**dano:** 40
-**tipo:** Normal
-**precisao:** 100
-
->>>
-
-</aside>
+```text
+nome: Investida;
+dano: 40;
+tipo: Normal;
+precisao: 100;
+```
 
 c) Na cópia do objeto original, adicione a propriedade **`ataques`** a partir do **espalhamento** da propriedade criada para o objeto original;
 
