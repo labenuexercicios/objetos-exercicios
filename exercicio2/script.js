@@ -13,3 +13,18 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+const atores = filme.elenco[0]
+console.log(atores)
+
+const ultimoAtor = filme.elenco[3]
+console.log(ultimoAtor)
+
+cont todastramissao = filme.transmissoesHoje
+console.log(todastramissao)
+
+const horarioBrasil = todastramissao[1]
+console.log(horarioBrasil)
+
+const horariotrasmissao = horarioBrasil.horario
+console.log(horariotrasmissao)
