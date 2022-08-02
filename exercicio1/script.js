@@ -1,4 +1,4 @@
-const sacolao = {};
+const sacolao = [];
 console.log(sacolao);
 
 
@@ -23,5 +23,8 @@ const frutas = [
 
 sacolao.frutas = [];
 sacolao.frutas.push(frutas);
+
+console.log (sacolao);
+
 
 
