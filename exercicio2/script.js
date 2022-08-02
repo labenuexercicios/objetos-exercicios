@@ -13,3 +13,15 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+// Letra a
+console.log(filme.elenco[0])
+
+// Letra b
+console.log(filme.elenco[3])
+
+// Letra c
+console.log(filme.transmissoesHoje)
+
+// Letra d
+console.log(filme.transmissoesHoje[1].horario)
