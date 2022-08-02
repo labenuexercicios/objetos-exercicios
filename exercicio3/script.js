@@ -1,44 +1,47 @@
 //Spread
 const pokemon1 = {
-	nome: "Bulbasaur",
-	tipo: "Grama",
-	nivel: 5
+    nome: "Bulbasaur",
+    tipo: "Grama",
+    nivel: 5
 };
-console.log(pokemon1);
+
 //A)
-copiaPokemon = {
-    ...pokemon1
-}
-const pokemon3 =[copiaPokemon]
-copiaPokemon.nome = 'Squirtle';
-copiaPokemon.tipo = 'Agua';
-console.log(copiaPokemon);
+// copiaPokemon = {
+//     ...pokemon1
+// }
+const pokemon2 = { ...pokemon1, nome: 'Squirtle', tipo: 'agua' }
 
 //B)
-const pokemon2 = [];
-pokemon2.push(pokemon1)
-pokemon2.push('ataques:', 'investida', 'dano: 40', 'tipo: normal', 'precisao:100')
+pokemon1.ataques = []
+pokemon1.ataques.push({
+    ataques: 'investida',
+    dano: 40,
+    tipo: 'normal',
+    precisao: 100
+})
 
-console.log(pokemon2);
+
 
 //C
-copiaPokemon ={
-    ...pokemon1,
-    ataques:'',
-}
-console.log(copiaPokemon);
+pokemon2.ataques = [...pokemon1.ataques]
 
 //D
-const ataque = [pokemon1]
-ataque.push(pokemon1)
-ataque.push('Ataque: Folha navalha', 'Dano: 45', 'Precisão: 100', 'Tipo: grama')
-console.log(ataque);
+pokemon1.ataques.push({
+    nome: 'Folha navalha',
+    dano: 45,
+    tipo: 'grama',
+    precisao: 100
+
+})
 //E
-const ataque1 = [pokemon3]
-ataque1.push(pokemon3)
-ataque1.push('Ataque: Jato da agua', 'Dano: 40', 'Precisão: 100', 'Tipo: agua')
-console.log(ataque1);
+pokemon2.ataques.push({
+    nome: 'Jato de Agua',
+    dano: 40,
+    tipo: 'agua',
+    precisao: 100
+
+})
 
 
 
-console.log('bulbasaur:',pokemon1,ataque, 'squirtle:', pokemon3, ataque1);
+console.log(pokemon1, pokemon2);
