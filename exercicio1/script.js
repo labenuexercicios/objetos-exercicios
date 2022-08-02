@@ -16,4 +16,4 @@ const pera = {
 }
 
 sacolao.push(banana, maca, pera)
-console.log(sacolao)
+console.log(sacolao.length)
