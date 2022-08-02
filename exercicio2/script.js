@@ -13,3 +13,13 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+//a
+console.log("Nome do primeiro ator/atriz da lista:", filme.elenco[0])
+//b
+console.log("Nome do último ator/atriz da lista:", filme.elenco[3])
+//c
+console.log("Todas as transmissões:", filme.transmissoesHoje)
+//d
+console.log("Horario canal brasil:", filme.transmissoesHoje[1].horario)
+
