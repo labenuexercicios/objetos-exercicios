@@ -26,8 +26,12 @@ tipo: "agua"}
 // ```
 pokemon1.ataques = []
 pokemon1.ataques.push(
-    {nome: "Investida"},{dano: 40}, 
-{tipo: "Normal"}, {precisao: 100});
+    {nome: "Investida",
+     dano: 40, 
+     tipo: "Normal", 
+     precisao: 100
+    }
+);
 
 
 // c) Na cópia do objeto original, adicione a propriedade
@@ -41,16 +45,26 @@ pokemon2.ataques = [...pokemon1.ataques]
     // **“Folha Navalha”,** com **45 de dano**, **100 de precisão**,
     //  e de tipo **“Grama”**;
 
-pokemon1.ataques.push({nome: "Folha Navalha"}, {dano: 45},
-{precisao: 100}, {tipo: "grama"});
+pokemon1.ataques.push(
+    {
+    nome: "Folha Navalha",
+    dano: 45,
+    precisao: 100,
+    tipo: "grama"
+    }
+ );
 
 
 // e) para a cópia, crie o ataque **“Jato de Água”**, 
 // com **40 de dano**, **100 de precisão**, 
 // e do tipo **“Água”**;
 
-pokemon2.ataques.push( {nome: "Jato de Agua"}, {dano: 40},
- {precisao: 100}, {tipo: "Água"})
+pokemon2.ataques.push( {
+    nome: "Jato de Agua", 
+    dano: 40,
+    precisao: 100, 
+    tipo: "Água"}
+ )
 
 console.log("pokemon1", pokemon1)
 console.log("pokemon2", pokemon2)
