@@ -13,3 +13,16 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+// Respostas
+
+console.log(filme.elenco[0])
+console.log(filme.elenco[3])
+console.log(filme.transmissoesHoje)
+console.log("Horário Canal Brasil", filme.transmissoesHoje[1].horario)
+
+
+
+
+
+
