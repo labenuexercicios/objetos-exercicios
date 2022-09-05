@@ -40,7 +40,7 @@ pokemonCopia.ataques2.push(
     dano= 40,
     tipo= "Água",
     precisao= 100
-)
+);
 
 console.log(pokemon1)
 console.log(pokemonCopia)
