@@ -1,4 +1,4 @@
-exercicio 2
+// exercicio 2
 
 const filme = {
 	nome: "Auto da Compadecida", 
