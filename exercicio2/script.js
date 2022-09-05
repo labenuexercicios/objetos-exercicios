@@ -13,3 +13,7 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+console.log(filme.elenco[0])
+console.log(filme.elenco[3])
+console.log(filme)
+console.log(filme.transmissoesHoje[1]) //não soube fazer.
