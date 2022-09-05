@@ -13,3 +13,16 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+//REPOSTA A
+console.log(filme.elenco[0])
+//reposta B
+// const lista= filme.elenco
+console.log(filme.elenco[filme.elenco.length -1])()
+// console.log(staultimoDaLista)
+
+//respota C
+// console.log(filme.transmissoesHoje.toString())
+const listaTrans = filme.transmissoesHoje
+console.log(listaTrans)
+//reposta d
+console.log(filme.transmissoesHoje[1])
