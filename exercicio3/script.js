@@ -33,22 +33,25 @@ pokemon2.ataques.push({
     tipo: "Agua",
     precisao:100,
 })
-const pokemon3= {...pokemon1}  
+
+
+const pokemon3= {...pokemon1} 
+
 pokemon3.nome= "Charmander",
 pokemon3.tipo="Fogo"
+
+//criei ataques pro charmander
 pokemon3.ataques=[]
-const ataques3= {
-    nome:"Brasas",
-    dano: 40,
-    tipo:"Fogo",
-    precisao: 100,
-}
+//adcionei o ataque brasas pro charmander
 pokemon3.ataques.push({
     nome:"Brasas",
     dano: 40,
     tipo:"Fogo",
     precisao: 100,
 })
+
+//depois adcionei o ataque investida
+
 pokemon3.ataques.push({
     nome: "Investida",
     dano: 40,
