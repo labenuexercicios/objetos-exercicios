@@ -12,4 +12,7 @@ const filme = {
 		]
 };
 
-// respostas aqui ⬇️
+console.log ("Primeiro ator:", filme.elenco[0])
+console.log("Ultimo ator:", filme.elenco[3])
+console.log("Todas as transmissões do dia:", filme.transmissoesHoje)
+console.log("Canal Brasil, horário de transmissão:", filme.transmissoesHoje[1].horario)
