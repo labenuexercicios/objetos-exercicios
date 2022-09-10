@@ -13,3 +13,15 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+// Imprimindo o primeiro ator, e destacando em aspas simples.
+console.log('Nome do primeiro ator:',filme.elenco[0])
+
+// Imprimindo o ultimo ator, e destacando em aspas simples.
+console.log('Nome do último ator:', filme.elenco[3])
+
+// Exibindo todas as transmissões.
+
+console.log(filme.transmissoesHoje)
+// Exibindo todos os horarios.
+
+filme.includes = ("canal")
