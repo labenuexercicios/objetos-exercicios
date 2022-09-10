@@ -1,6 +1,6 @@
 # Exercício 3
 
-Observe o objeto abaixo e, utilizando o **espalhamento** resolva os exercícios a seguir:
+Observe o objeto abaixo e, utilizando o **espelhamento** resolva os exercícios a seguir:
 
 ```jsx
 const pokemon1 = {
