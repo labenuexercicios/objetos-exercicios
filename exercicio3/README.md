@@ -1,8 +1,8 @@
 # Exercício 3
 
-Observe o objeto abaixo e, utilizando o **espalhamento** resolva os exercícios a seguir:
+Observe o objeto abaixo e, utilizando o **espalhamento** resolva os exercícios a seguir:
 
-```jsx
+```
 const pokemon1 = {
 	nome: "Bulbasaur",
 	tipo: "Grama",
@@ -10,21 +10,23 @@ const pokemon1 = {
 };
 ```
 
-a) Crie uma cópia do objeto, acima, mantendo a estrutura, mas trocando **`nome`** por “Squirtle” e **`tipo`** por “Água”
+a) Crie uma cópia do objeto, acima, mantendo a estrutura, mas trocando **`nome`** por “Squirtle” e **`tipo`** por “Água”
 
-b) No objeto original, adicione mais uma propriedade, chamada `ataques`. Esta propriedade deve guardar um **array** de objetos com a estrutura abaixo. Inicie a propriedade como um array vazio, e crie o objeto abaixo utilizando `**push()**`
+b) No objeto original, adicione mais uma propriedade, chamada `ataques`. Esta propriedade deve guardar um **array** que deve começar vazio.
 
-```text
-nome: Investida;
-dano: 40;
-tipo: Normal;
-precisao: 100;
+c-) crie um objeto de `ataque` com a estrutura abaixo e o adicione no array `ataques` utilizando `**push()**`
+
+```
+nome: Investida,
+dano: 40,
+tipo: Normal,
+precisao: 100,
 ```
 
-c) Na cópia do objeto original, adicione a propriedade **`ataques`** a partir do **espalhamento** da propriedade criada para o objeto original;
+c) Na cópia do objeto original, adicione a propriedade **`ataques`** a partir do **espalhamento** da propriedade de mesmo nome criada para o objeto original;
 
-d) para o objeto original, adicione o ataque **“Folha Navalha”,** com **45 de dano**, **100 de precisão**, e de tipo **“Grama”**;
+d) para o objeto original, adicione o ataque **“Folha Navalha”,** com **45 de dano**, **100 de precisão**, e de tipo **“Grama”**; no array de `ataques`
 
-e) para a cópia, crie o ataque **“Jato de Água”**, com **40 de dano**, **100 de precisão**, e do tipo **“Água”**;
+e) para a cópia, crie o `ataque` **“Jato de Água”**, com **40 de dano**, **100 de precisão**, e do tipo **“Água”**; e adicione no array.
 
-f) Imprima os dois objetos no console.
+f) Imprima os dois objetos  do tipo pokemon no console.
