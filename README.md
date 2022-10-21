@@ -1,4 +1,4 @@
-# A011 - Objetos
+# Objetos - Exercício
 
 ### Setup do projeto no Git
 
