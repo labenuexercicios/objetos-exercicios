@@ -23,5 +23,5 @@ const ultimoAtor = filme.elenco[3];
 console.log(`Ultimo ator: ${ultimoAtor}`);
 
 // c) Qual o código para exibir o array com todas as transmissões de hoje?
-//const transmissoes = filme.[transmissoesHoje];
-console.log(`Todas as transmissoes de hoje: \n${filme.transmissoesHoje[0].canal}, Horario: ${filme.transmissoesHoje[0].horario} \n${filme.transmissoesHoje[1].canal}, Horario: ${filme.transmissoesHoje[1].horario} \n${filme.transmissoesHoje[2].canal}, Horario: ${filme.transmissoesHoje[2].horario}`);
+//console.log(`Todas as transmissoes de hoje: \n${filme.transmissoesHoje[0].canal}, Horario: ${filme.transmissoesHoje[0].horario} \n${filme.transmissoesHoje[1].canal}, Horario: ${filme.transmissoesHoje[1].horario} \n${filme.transmissoesHoje[2].canal}, Horario: ${filme.transmissoesHoje[2].horario}`);
+console.log(filme.transmissoesHoje);
