@@ -17,9 +17,10 @@ pokemon1.ataques.push(ataques);
 const pokemon1Copia = {
 	nome: "Squirtle",
 	tipo: "Água",
-	nivel: 5,
-	ataques: [...pokemon1.ataques]
+	nivel: 5
 };
+
+pokemon1Copia.ataques = [...pokemon1.ataques];
 
 pokemon1.ataques.push({ 
 	nome: "Folha Navalha",
