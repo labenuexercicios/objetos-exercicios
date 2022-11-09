@@ -37,7 +37,7 @@ const pokemon2 = {
     ...pokemon1,
     nome: "Squirtle",
     tipo: "Agua",
-    ataques: [pokemon1.ataques[0]]// C) Na copia do objeto original, adicione a propriedade ataques a apartir do espelhamento da propriedade de mesmo nome criada para o objeto original.
+    ataques: [pokemon1.ataques[0]] // C) Na copia do objeto original, adicione a propriedade ataques a apartir do espelhamento da propriedade de mesmo nome criada para o objeto original.
 };
 
 const JatoDeAgua = {  //e) para a cópia, crie o ataque “Jato de Água”, com 40 de dano, 100 de precisão, e do tipo “Água”; e adicione no array.
