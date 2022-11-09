@@ -14,31 +14,34 @@ const pokemon2 = {...pokemon1,
 pokemon1.ataques = []
 
 //c)
-pokemon1.ataques.push(
+const pokemon1ataque1=[
     {nome:"investida"},
     {dano:40},
     {tipo: "Normal"},
     {precisao: 100},
-)
+]
+pokemon1.ataques.push(pokemon1ataque1)
 
 pokemon2.ataques=[]
 
 
 //d)
-pokemon1.ataques.push(
+const pokemon1ataque2=[
     {nome:"Folha navalha"},
     {dano:45},
     {tipo: "Grama"},
     {precisao: 100},
-)
+]
+pokemon1.ataques.push(pokemon1ataque2)
 
 //e)
-pokemon2.ataques.push(
+const pokemon2ataque1=[
     {nome:"Jato de Água"},
     {dano:40},
     {tipo: "Água"},
     {precisao: 100},
-)
+]
+pokemon2.ataques.push(pokemon2ataque1)
 
 console.log(pokemon1)
 console.log(pokemon2)
