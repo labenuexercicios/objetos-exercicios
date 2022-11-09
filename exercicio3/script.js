@@ -60,3 +60,4 @@ novoPokemon.ataques.push(ataque3)
 console.log(pokemon1)
 console.log(novoPokemon)
 
+huhuhuhu
