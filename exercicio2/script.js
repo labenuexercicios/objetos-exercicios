@@ -13,3 +13,19 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+//letra A
+console.log(filme['elenco'][0])
+
+
+//letra B
+
+console.log(filme['elenco'][3])
+
+//letra C
+console.log(filme['transmissoesHoje'])
+
+
+//letra D
+
+console.log(filme.transmissoesHoje[1].horario)
