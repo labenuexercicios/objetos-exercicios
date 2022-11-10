@@ -1,6 +1,6 @@
 # Exercício 1
 
-Crie um array vazio chamado `sacolao`, e siga os passos abaixo:
+Crie um array vazio chamado sacolao, e siga os passos abaixo:
 
 a) Crie três objetos que vão representar frutas do sacolão. Os objetos devem ter as seguintes propriedades: 
 
