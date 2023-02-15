@@ -10,6 +10,6 @@ const filme = {
 		{canal: "Canal Brasil", horario: "19h"}, 
 		{canal: "Globo", horario: "14h"}
 		]
-};
+}
 
 // respostas aqui ⬇️
