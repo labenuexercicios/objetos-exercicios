@@ -19,7 +19,7 @@
       <summary>Entenda o comando `git checkout -b`</summary>
       <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
    </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a011>`. Lembre-se de fazer commits.
+-  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-objetos>`. Lembre-se de fazer commits.
 -  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-objetos>`.
 
 **Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
