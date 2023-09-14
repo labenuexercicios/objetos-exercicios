@@ -11,5 +11,9 @@ const filme = {
 		{canal: "Globo", horario: "14h"}
 		]
 }
+console.log(filme)
+console.log(filme.elenco[0])
+console.log(filme.elenco[3])
+console.log(filme.elenco)
+console.log(filme.transmissoesHoje[1])
 
-// respostas aqui ⬇️
